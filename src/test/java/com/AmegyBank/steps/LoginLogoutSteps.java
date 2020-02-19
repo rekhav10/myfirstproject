@@ -46,7 +46,7 @@ public class LoginLogoutSteps {
 	@Then("^User should see homepage title as \"([^\"]*)\"$")
 	public void user_should_see_homepage_title_as(String pagetitle)throws Throwable {
 	Assert.assertEquals(homepage.getpageTitle(), pagetitle);
-	System.out.println(pagetitle);
+//	System.out.println(pagetitle);
 		/*
 		 * String actualTitle = driver.getTitle(); Assert.assertEquals(title,
 		 * actualTitle); System.out.println(title);
