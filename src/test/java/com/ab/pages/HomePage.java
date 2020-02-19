@@ -43,6 +43,7 @@ WebDriver driver;
 		List<String> rightOptions = new ArrayList<String>();
 		for (WebElement option : topRightSideHpMenuOption) {
 		   rightOptions.add(option.getText());
+		   System.out.println(" The getText : "+option.getText());
 		}
 		return rightOptions;
 	}
